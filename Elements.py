@@ -1,0 +1,3 @@
+class Elements:
+	video = []
+	resource = []

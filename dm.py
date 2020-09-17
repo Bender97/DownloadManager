@@ -10,80 +10,40 @@ import os
 
 from ssologin import SSOLogin
 from downloadVideo import downloadVideo
+from downloadpdf import downloadpdf
+from Elements import Elements
+from parsePage import parsePage
 
 path_to_mozilladriver = "/home/fusy/geckodriver-v0.27.0-linux32/geckodriver"
 
-driver = webdriver.Firefox(executable_path = path_to_mozilladriver)
+fp = webdriver.FirefoxProfile()
+mime_types = "application/pdf,application/vnd.adobe.xfdf,application/vnd.fdf,application/vnd.adobe.xdp+xml"
+fp.set_preference("browser.helperApps.neverAsk.saveToDisk", mime_types)
+fp.set_preference("browser.download.manager.showWhenStarting", False)
+fp.set_preference("plugin.scan.plid.all", False)
+#fp.set_preference("plugin.scan.Acrobat", 99.0)
+fp.set_preference("plugin.disable_full_page_plugin_for_types", mime_types)
+fp.set_preference("pdfjs.disabled", True)
+
+driver = webdriver.Firefox(executable_path = path_to_mozilladriver, firefox_profile = fp)
 
 SSOLogin(driver)
 
-f = open("src.txt", "r")
+courseURL = ""
+elements = parsePage(driver, courseURL)
 
-src = f.read()
+'''
+for link in elements.video:
+	print(link)
 
-'''sub = "Kaltura Video Resource"
+print(len(elements.video))
 
-res = [i for i in range(len(src)) if src.startswith(sub, i)] 
+for link in elements.resource:
+	print(link)
 
-start = []
-startsub = "onclick=\"\" href="
+print(len(elements.resource))'''
 
-for pivot in res:
-	for i in range(pivot, len(src)):
-		if (src.startswith(startsub, i)):
-			start.append(i+17)
-			break
-print(len(start))
-
-#print(res)
-#print(len(res))
-
-end = []
-endsub = "\"><img src"
-
-for pivot in start:
-	for i in range(pivot, len(src)):
-		if (src.startswith(endsub, i)):
-			end.append(i)
-			break
-
-#print(end)
-#print(len(end))
-
-for i in range(len(sub)):
-	print(src[start[i]:end[i]])'''
-
-sub = "href=\"https:"
-
-res = [i+6 for i in range(len(src)) if src.startswith(sub, i)] 
-
-print(len(res))
-
-end = []
-endsub = "\""
-
-for pivot in res:
-	for i in range(pivot, len(src)):
-		if (src.startswith(endsub, i)):
-			end.append(i)
-			break
-
-video = []
-
-for i in range(len(res)):
-	link = src[res[i]:end[i]]
-	if "kalvidres" in link:
-		video.append(link)
-
-#for link in video:
-#	print(link)
-
-#print(len(video))
-
-downloadVideo(driver, video)
-
+#downloadVideo(driver, elements.video)
+downloadpdf(driver, elements.resource)
 
 driver.quit()
-
-
-f.close()

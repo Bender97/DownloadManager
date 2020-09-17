@@ -9,40 +9,44 @@ import time
 import os
 
 def SSOLogin(driver):
+    while(True):
+        try:
+            sso_path = "https://elearning.unipd.it/math/auth/shibboleth/index.php"
 
-    sso_path = "https://elearning.unipd.it/math/auth/shibboleth/index.php"
+            start = time.time()
 
-    start = time.time()
+            driver.get(sso_path)
 
-    driver.get(sso_path)
+            '''print("insert username: ")
+            username = input()
 
-    '''print("insert username: ")
-    username = input()
+            print("insert password: ")
+            psw = input() '''
 
-    print("insert password: ")
-    psw = input() '''
+            end = time.time()
 
-    end = time.time()
+            if (end-start<10):
+                time.sleep(10-(end-start))
 
-    if (end-start<10):
-        time.sleep(10-(end-start))
+            elem = driver.find_element_by_id('j_username_js')
+            #elem.clear()
+            elem.send_keys('daniel.fusaro')
+            #elem.send_keys(username)
 
-    elem = driver.find_element_by_id('j_username_js')
-    #elem.clear()
-    elem.send_keys('daniel.fusaro')
-    #elem.send_keys(username)
+            elem = driver.find_element_by_id('password')
+            #elem.clear()
+            elem.send_keys('Ilcielo3blu')
+            #elem.send_keys(psw)
 
-    elem = driver.find_element_by_id('password')
-    #elem.clear()
-    elem.send_keys('Ilcielo3blu')
-    #elem.send_keys(psw)
+            elem = driver.find_element_by_id('radio2')
+            elem.click()
 
-    elem = driver.find_element_by_id('radio2')
-    elem.click()
+            time.sleep(1)
 
-    time.sleep(1)
+            elem = driver.find_element_by_id('login_button_js')
+            elem.click()
 
-    elem = driver.find_element_by_id('login_button_js')
-    elem.click()
-
-    time.sleep(2)
+            time.sleep(2)
+            break
+        except err:
+            print(err)
