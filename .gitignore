@@ -2,3 +2,5 @@
 . ~/.local/bin/virtualenvwrapper.sh
 
 pdf-CalcoloParallelo
+
+__pycache_
