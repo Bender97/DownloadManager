@@ -26,9 +26,13 @@ def parsePage(driver, URL):
 
 	elements = Elements()
 
-	f = open("src.txt", "r")
+	'''f = open("src.txt", "r")
 	src = f.read()
-	f.close()
+	f.close()'''
+
+	driver.get(URL)
+	time.sleep(5)
+	src = driver.page_source
 
 	sub = "href=\"https:"
 

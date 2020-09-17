@@ -23,6 +23,10 @@ def getTitle(src):
 
 def downloadpdf(driver, resources):
 
+	# CHECK IF FOLDER EXISTS. IF NOT: MKDIR
+	if not os.path.isdir('pdf'):
+		os.mkdir('pdf')
+
 	with requests.Session() as s:
 
 		for cookie in driver.get_cookies():

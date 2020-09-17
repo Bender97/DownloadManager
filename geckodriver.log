@@ -471,3 +471,60 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 1600257662639	Marionette	INFO	Stopped listening on port 43483
 1600257667687	Marionette	INFO	Stopped listening on port 44019
 1600257965434	Marionette	INFO	Stopped listening on port 42791
+1600354995459	geckodriver	INFO	Listening on 127.0.0.1:60775
+1600354996421	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevvJj5o"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600355001084	Marionette	INFO	Listening on port 33951
+1600355001168	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/math/, line 692: TypeError: M.filter_mathjaxloader is undefined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+1600355033623	Marionette	INFO	Stopped listening on port 33951
+1600355046335	geckodriver	INFO	Listening on 127.0.0.1:35149
+1600355046341	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledrRK5w"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600355049034	Marionette	INFO	Listening on port 39181
+1600355049062	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/math/, line 692: TypeError: M.filter_mathjaxloader is undefined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/enrol/index.php?id=4476, line 397: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+1600355121214	geckodriver	INFO	Listening on 127.0.0.1:46865
+1600355121220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePMphAl"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600355123905	Marionette	INFO	Listening on port 39861
+1600355123935	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/, line 1711: TypeError: Y.Moodle is undefined
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1600355210549	Marionette	INFO	Stopped listening on port 39861
+1600355211980	Marionette	INFO	Stopped listening on port 39181
+1600355262985	geckodriver	INFO	Listening on 127.0.0.1:52155
+1600355262991	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletPIm4T"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600355265962	Marionette	INFO	Listening on port 34951
+1600355266000	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1600355318356	Marionette	INFO	Stopped listening on port 34951
+1600355458674	geckodriver	INFO	Listening on 127.0.0.1:43831
+1600355458681	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileI8Ta8Q"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1600355461201	Marionette	INFO	Listening on port 39631
+1600355461291	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1600355512247	Marionette	INFO	Stopped listening on port 39631
+1600355787400	geckodriver	INFO	Listening on 127.0.0.1:59029
+1600355787407	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebM81rO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

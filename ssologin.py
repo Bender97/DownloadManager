@@ -12,6 +12,7 @@ def SSOLogin(driver):
     while(True):
         try:
             sso_path = "https://elearning.unipd.it/math/auth/shibboleth/index.php"
+            sso_path = "https://elearning.dei.unipd.it/auth/shibboleth/index.php"
 
             start = time.time()
 
