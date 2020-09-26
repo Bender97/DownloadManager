@@ -13,6 +13,6 @@ def waitForElement(driver, id):
 	try:
 		check = EC.presence_of_element_located((By.ID, id))
 		WebDriverWait(driver, timeout).until(check)
-		print("Page Loaded!")
+		#print("Page Loaded!")
 	except TimeoutException:
 		print("Timeout exception while waiting for id: " + id)

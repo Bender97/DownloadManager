@@ -7,6 +7,12 @@ import os
 from Elements import Elements
 from waitForElement import waitForElement
 
+def removeSpan(txt):
+	pattern='<span'
+	for i in range(0, len(txt)):
+		if (txt.startswith(pattern, i)):
+			return txt[0:i]
+
 def findTitle(src, pivot):
 	pattern="instancename"
 	start = 0
@@ -14,10 +20,13 @@ def findTitle(src, pivot):
 		if (src.startswith(pattern, i)):
 			start = i+14
 			break
-	pattern="<span"
+	pattern="</span"
 	for i in range(start, len(src)):
 		if (src.startswith(pattern, i)):
-			return src[start:i]
+			if ("<span" in src[start:i]):
+				return removeSpan(src[start:i])
+			else:
+				return src[start:i]
 
 def printElements(elements):
 	print("------- RESOURCES -------- " + str(len(elements.resource)))
