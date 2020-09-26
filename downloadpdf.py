@@ -43,4 +43,3 @@ def downloadpdf(driver, resources):
 				for chunk in r.iter_content(chunk_size):
 					fd.write(chunk)
 			printProgress(i, len(resources))
-

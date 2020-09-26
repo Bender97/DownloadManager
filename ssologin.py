@@ -1,12 +1,10 @@
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.keys import Keys
 
 import time
 import os
+
+from waitForElement import waitForElement
 
 
 #1 DRIVE TO REQUESTED PAGE
@@ -57,60 +55,58 @@ def clickShibbox(driver):
 
 
 def SSOLogin(driver, courseURL):
-    driver.get(courseURL)
-    time.sleep(5)
-    
-    if isPolicyPage(driver):
-        clickLogin(driver)
-        clickShibbox(driver)
-        
-    else:
-        if (isLoginRequested(driver)):
-            print("eeh si")
-            exit(0)
+    while True:
+        driver.get(courseURL)
+
+        waitForElement(driver, 'guestlogin')
+
+        if isPolicyPage(driver):
+            clickLogin(driver)
+            clickShibbox(driver)
+            
         else:
-            print("no")
-            exit(0)
+            if (isLoginRequested(driver)):
+                clickShibbox(driver)
+                #exit(0)
+            else:
+                print("no")
+                exit(0)
 
-    while(True):
-        try:
-            sso_path = "https://elearning.unipd.it/math/auth/shibboleth/index.php"
-            sso_path = "https://elearning.dei.unipd.it/auth/shibboleth/index.php"
+        if (driver.current_url == courseURL):
+            break     
 
-            start = time.time()
+        while(True):
+            try:
 
-            driver.get(sso_path)
+                #driver.get(sso_path)
 
-            '''print("insert username: ")
-            username = input()
+                '''print("insert username: ")
+                username = input()
 
-            print("insert password: ")
-            psw = input() '''
+                print("insert password: ")
+                psw = input() '''
 
-            end = time.time()
+                waitForElement(driver, 'j_username_js')
+                elem = driver.find_element_by_id('j_username_js')
+                #elem.clear()
+                elem.send_keys('daniel.fusaro')
+                #elem.send_keys(username)
+                waitForElement(driver, 'password')
+                elem = driver.find_element_by_id('password')
+                #elem.clear()
+                elem.send_keys('Ilcielo3blu')
+                #elem.send_keys(psw)
+                waitForElement(driver, 'radio2')
+                elem = driver.find_element_by_id('radio2')
+                elem.click()
 
-            if (end-start<10):
-                time.sleep(10-(end-start))
+                
+                waitForElement(driver, 'login_button_js')
+                elem = driver.find_element_by_id('login_button_js')
+                elem.click()
+                break
+            except err:
+                print(err)
 
-            elem = driver.find_element_by_id('j_username_js')
-            #elem.clear()
-            elem.send_keys('daniel.fusaro')
-            #elem.send_keys(username)
-
-            elem = driver.find_element_by_id('password')
-            #elem.clear()
-            elem.send_keys('Ilcielo3blu')
-            #elem.send_keys(psw)
-
-            elem = driver.find_element_by_id('radio2')
-            elem.click()
-
-            time.sleep(1)
-
-            elem = driver.find_element_by_id('login_button_js')
-            elem.click()
-
-            time.sleep(2)
+        if (driver.current_url == courseURL):
             break
-        except err:
-            print(err)

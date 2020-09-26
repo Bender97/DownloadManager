@@ -1,14 +1,11 @@
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.keys import Keys
+
 
 import time
 import os
 
 from Elements import Elements
+from waitForElement import waitForElement
 
 def findTitle(src, pivot):
 	pattern="instancename"
@@ -22,23 +19,30 @@ def findTitle(src, pivot):
 		if (src.startswith(pattern, i)):
 			return src[start:i]
 
+def printElements(elements):
+	print("------- RESOURCES -------- " + str(len(elements.resource)))
+	for res in elements.resource:
+		print(res)
+
+	print()
+	print("------- VIDEOS ----------- " + str(len(elements.video)))
+	for vid in elements.video:
+		print(vid)
+	print()
+
 def parsePage(driver, URL):
 
 	elements = Elements()
-
-	'''f = open("src.txt", "r")
-	src = f.read()
-	f.close()'''
-
+	
 	driver.get(URL)
-	time.sleep(5)
+	
+	waitForElement(driver, 'page-content')
+	
 	src = driver.page_source
 
 	sub = "href=\"https:"
 
 	res = [i+6 for i in range(len(src)) if src.startswith(sub, i)] 
-
-	print(len(res))
 
 	end = []
 	endsub = "\""
@@ -52,7 +56,8 @@ def parsePage(driver, URL):
 	for i in range(len(res)):
 		link = src[res[i]:end[i]]
 		if "/kalvidres/" in link:
-			elements.video.append(link)
+			title = findTitle(src, end[i])
+			elements.video.append([title, link])
 		elif "/resource/" in link:
 			title = findTitle(src, end[i])
 			elements.resource.append([title, link])
