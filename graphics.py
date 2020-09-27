@@ -35,6 +35,7 @@ def onFrameConfigure(canvas):
 
 
 def performSelection(elements):
+	global canvas
 	maxlen = 0
 	for res in elements.resource:
 		if len(res[0])>maxlen:
@@ -44,44 +45,51 @@ def performSelection(elements):
 			maxlen=len(vid[0])
 
 	root = tk.Tk()
+	root.geometry(str(maxlen*10)+ "x600")
 	canvas = tk.Canvas(root)
+	#FOR WINDOWS
+	#canvas.bind_all("<MouseWheel>", on_mousewheel)
+	
+	#FOR LINUX
+	canvas.bind("<Button-4>", lambda event : canvas.yview('scroll', -1, 'units'))
+	canvas.bind("<Button-5>", lambda event : canvas.yview('scroll', 1, 'units'))
+	
 	frame = tk.Frame(canvas)
 	vsb = tk.Scrollbar(root, orient="vertical", command=canvas.yview)
 	canvas.configure(yscrollcommand=vsb.set)
+
 	vsb.pack(side="right", fill="y")
+	
 	canvas.pack(side="left", fill="both", expand=True)
-	canvas.create_window((4, 4), window=frame, anchor="w")
+	canvas.create_window((4, 4), window=frame, anchor="nw")
 
 	
-	tk.Label(frame, text="PDF Resources").pack()
+	
+	tk.Label(frame, text="PDF Resources", font='Helvetica 18 bold').grid(row=0, sticky=W)
 
 	for i in range(len(elements.resource)):
 		res_checkVar.append(IntVar())
 		res_checkbuttons.append(Checkbutton(frame, text = elements.resource[i][0],\
-			variable = res_checkVar[i], onvalue=1, offvalue=0, height=2, width = maxlen))
+			variable = res_checkVar[i], onvalue=1, offvalue=0, height=2))
+		res_checkbuttons[i].grid(row=(i+1), sticky=W)
 
-	tk.Label(frame, text="Video Resources").pack()
+	tk.Label(frame, text="Video Resources", font='Helvetica 18 bold').grid(row=(len(elements.resource)+1), sticky=W)
 
 	for i in range(len(elements.video)):
 		vid_checkVar.append(IntVar())
 		vid_checkbuttons.append(Checkbutton(frame, text = elements.video[i][0],\
-			variable = vid_checkVar[i], onvalue=1, offvalue=0, height=2, width = maxlen))
-
+			variable = vid_checkVar[i], onvalue=1, offvalue=0, height=2))
+		vid_checkbuttons[i].grid(row=(i+2+len(elements.resource)), sticky=W)
 
 	B = Button(frame, text="Download", command=lambda: downloadCallback(elements))
-	B.pack(side = tk.BOTTOM)
+	B.grid(row=(len(elements.video)+len(elements.resource)+2), sticky=W)
 
 	B_none = Button(frame, text="Select Nothing", command=lambda: noneBtnCallback(elements))
-	B_none.pack(side = tk.BOTTOM)
+	B_none.grid(row=(len(elements.video)+len(elements.resource)+3), sticky=W)
 
 	B_all = Button(frame, text="Select All", command=lambda: allBtnCallback(elements))
-	B_all.pack(side = tk.BOTTOM)
+	B_all.grid(row=(len(elements.video)+len(elements.resource)+4), sticky=W)
 
-
-	for i in range(len(elements.resource)):
-		res_checkbuttons[i].pack(anchor = "e")
-	for i in range(len(elements.video)):
-		vid_checkbuttons[i].pack(anchor = "e")
 
 
 	frame.bind("<Configure>", lambda event, canvas=canvas: onFrameConfigure(canvas))

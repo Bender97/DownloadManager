@@ -43,11 +43,15 @@ def parsePage(driver, URL):
 
 	elements = Elements()
 	
-	driver.get(URL)
+	'''driver.get(URL)
 	
 	waitForElement(driver, 'page-content')
 	
-	src = driver.page_source
+	src = driver.page_source'''
+
+	f=open("chimica.txt", "r")
+	src = f.read()
+	f.close()
 
 	sub = "href=\"https:"
 
