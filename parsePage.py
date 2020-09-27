@@ -39,6 +39,10 @@ def printElements(elements):
 		print(vid)
 	print()
 
+def exploreSubFolders(driver, elements):
+	for sub in elements.subfolder:
+		print(sub[1])
+
 def parsePage(driver, URL):
 
 	elements = Elements()
@@ -74,6 +78,11 @@ def parsePage(driver, URL):
 		elif "/resource/" in link:
 			title = findTitle(src, end[i])
 			elements.resource.append([title, link])
+		elif "/folder/" in link:
+			title = findTitle(src, end[i])
+			elements.subfolder.append([link, title])
 
+	exploreSubFolders(driver, elements)
 
+	exit()
 	return elements
