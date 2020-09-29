@@ -1,24 +1,22 @@
+
+class simpleElement:
+	def __init__(self, title, link):
+		self.title = title
+		self.link = link
+
+class subfolderElement:
+	def __init__(self, title, link):
+		self.title = title
+		self.link = link
+		self.elements = Elements()
+
 class Elements:
-	video = []
-	resource = []
-	subfolder = []
+	def __init__(self):
+		self.video = []			# a collection of simpleElement s
+		self.resource = []		# a collection of simpleElement s
+		self.subfolder = []		# a collection of subfolderElement s
 
-
-'''
-
-ELEMENTS:
-	VIDEO = [[title1, link1], [title2, link2], ...]
-	RESOURCE = [[title1, link1], [title2, link2], ...]
-	SUBFOLDER = [
-					[link1, foldername1, [
-									[title1, link1], [title2, link2], ...
-								]
-					],
-					[link2, foldername2, [
-									[title1, link1], [title2, link2], ...
-								]
-					],
-					...
-				]
-
-'''
+	def isEmpty(self):
+		if len(self.video)==0 and len(self.resource)==0 and len(self.subfolder)==0:
+			return True
+		return False
