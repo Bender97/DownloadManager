@@ -23,7 +23,7 @@ class UI:
 		self.toReturn = Elements()
 
 		self.root = tk.Tk()
-		self.root.geometry("200x600")
+		self.root.geometry("800x600")
 		
 		self.canvas = tk.Canvas(self.root)
 		

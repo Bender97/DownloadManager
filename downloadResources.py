@@ -21,25 +21,27 @@ def getTitle(src):
 	return src[start:end]
 
 
-def downloadpdf(driver, resources):
+def downloadResources(driver, resources, path=""):
 
 	# CHECK IF FOLDER EXISTS. IF NOT: MKDIR
-	if not os.path.isdir('pdf'):
-		os.mkdir('pdf')
+	if not os.path.isdir(path + '/pdf'):
+		os.mkdir(path + '/pdf')
 
-	with requests.Session() as s:
+	printProgress(0, len(resources), msg="[res]")
+
+	with requests.Session() as session:
 
 		for cookie in driver.get_cookies():
 		    c = {cookie['name']: cookie['value']}
-		    s.cookies.update(c)
+		    session.cookies.update(c)
 
 		chunk_size = 2000
 		for i, res in enumerate(resources):
 
-			r = s.get(res[1], stream=True)
+			r = session.get(res.link, stream=True)
 			time.sleep(2)
-			filename = "pdf/" + str(i).zfill(2) + res[0].replace(" ", "_").replace("/", "-") + ".pdf"
+			filename = path + "/pdf/" + str(i).zfill(2) + res.title.replace(" ", "_").replace("/", "-") + ".pdf"
 			with open(filename, "wb") as fd:
 				for chunk in r.iter_content(chunk_size):
 					fd.write(chunk)
-			printProgress(i, len(resources))
+			printProgress(i+1, len(resources), msg="[res]")

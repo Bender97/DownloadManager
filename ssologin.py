@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 import time
-import os
 
 from waitForElement import waitForElement
 
@@ -105,7 +104,7 @@ def SSOLogin(driver, courseURL):
                 elem = driver.find_element_by_id('login_button_js')
                 elem.click()
                 break
-            except err:
+            except Exception as err:
                 print(err)
 
         if (driver.current_url == courseURL):
