@@ -2072,3 +2072,58 @@ JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=1548
 JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
 JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
 1601410079479	Marionette	INFO	Stopped listening on port 32883
+1601411215521	geckodriver	INFO	Listening on 127.0.0.1:34607
+1601411215527	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVtA5oE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601411218236	Marionette	INFO	Listening on port 35253
+1601411218338	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601411282531	Marionette	INFO	Stopped listening on port 35253
+1601411282996	geckodriver	INFO	Listening on 127.0.0.1:45997
+1601411283004	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4oumyn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601411285899	Marionette	INFO	Listening on port 37723
+1601411285925	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601411337409	Marionette	INFO	Stopped listening on port 37723
+1601411477722	geckodriver	INFO	Listening on 127.0.0.1:35195
+1601411477729	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileH1izaz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601411480420	Marionette	INFO	Listening on port 35333
+1601411480438	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601411519370	Marionette	INFO	Stopped listening on port 35333

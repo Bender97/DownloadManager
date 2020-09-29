@@ -1,6 +1,8 @@
 from tkinter import *
 import tkinter as tk
 
+from Elements import Elements
+
 class UI:
 	def __init__(self, elements):
 
@@ -17,6 +19,8 @@ class UI:
 
 		self.sub_checkVar = []
 		self.sub_checkbuttons = []
+
+		self.toReturn = Elements()
 
 		self.root = tk.Tk()
 		self.root.geometry("200x600")
@@ -69,13 +73,15 @@ class UI:
 	def downloadCallback(self):
 		for i, res in enumerate(self.elements.resource):
 			if(self.res_checkVar[i].get()):
-				print(res.title)
+				self.toReturn.resource.append(res)
 		for i, vid in enumerate(self.elements.video):
 			if(self.vid_checkVar[i].get()):
-				print(vid.title)
+				self.toReturn.video.append(vid)
 		for i, sub in enumerate(self.elements.subfolder):
 			if(self.sub_checkVar[i].get()):
-				print(sub.title)
+				self.toReturn.subfolder.append(sub)
+		
+		self.root.destroy()
 
 	def noneBtnCallback(self):
 		for chkbtn in self.res_checkbuttons:
@@ -131,3 +137,5 @@ class UI:
 		self.bindLinuxMouseScroll(self.frame)
 
 		self.root.mainloop()
+
+		return self.toReturn

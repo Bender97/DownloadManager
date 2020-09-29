@@ -20,7 +20,11 @@ SSOLogin(driver, courseURL)
 elements = parsePage(driver, courseURL)
 
 ui = UI(elements)
-ui.performSelection()
+selection = ui.performSelection()
+
+#download(driver, selection)
+
+printElements(selection)
 
 #downloadVideo(driver, elements.video)
 #downloadpdf(driver, elements.resource)
