@@ -54,10 +54,10 @@ def printElements(elements, level=0):
 				printElements(subfolder.elements, level+1)
 
 def exploreSubFolders(driver, elements):
-	for subfolder in elements.subfolder:
+	for i, subfolder in enumerate(elements.subfolder):
 
-		print("------- exploring: \n" + subfolder.title + "\nat link:\n" + subfolder.link)
-		
+		#print("------- exploring: \n" + subfolder.title + "\nat link:\n" + subfolder.link)
+		print("subfolder " + str(i+1).ljust(2) + " of " + str(len(elements.subfolder)))
 		driver.get(subfolder.link)
 		waitForElement(driver, 'page-content')
 		src = driver.page_source
@@ -132,6 +132,6 @@ def parsePage(driver, URL):
 	if len(elements.subfolder)>0 :
 		exploreSubFolders(driver, elements)
 
-	printElements(elements)
+	#printElements(elements)
 
 	return elements

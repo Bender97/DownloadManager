@@ -5,7 +5,7 @@ from downloadVideo import downloadVideo
 from downloadpdf import downloadpdf
 from parsePage import parsePage, printElements
 from setAndCreateFirefoxProfile import setAndCreateFirefoxProfile
-from graphics import performSelection
+from UI import UI
 
 path_to_mozilladriver = "/home/fusy/geckodriver-v0.27.0-linux32/geckodriver"
 fp = setAndCreateFirefoxProfile()
@@ -19,7 +19,8 @@ SSOLogin(driver, courseURL)
 	
 elements = parsePage(driver, courseURL)
 
-performSelection(elements)
+ui = UI(elements)
+ui.performSelection()
 
 #downloadVideo(driver, elements.video)
 #downloadpdf(driver, elements.resource)
