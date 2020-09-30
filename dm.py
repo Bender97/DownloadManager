@@ -15,7 +15,8 @@ driver = webdriver.Firefox(executable_path = path_to_mozilladriver, firefox_prof
 #courseURL = "https://elearning.dei.unipd.it/course/view.php?id=4476"
 courseURL = "https://elearning.unipd.it/chimica/course/view.php?id=603"
 
-SSOLogin(driver, courseURL)
+ssologin = SSOLogin(driver)
+ssologin.login(courseURL)
 	
 elements = parsePage(driver, courseURL)
 

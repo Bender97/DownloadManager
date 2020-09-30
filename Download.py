@@ -32,4 +32,3 @@ class Download:
 			self.download(driver, sub.elements, name = self.currentpath + "/" + sub.title)
 
 		self.currentpath = self.previouspath
-

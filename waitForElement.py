@@ -8,11 +8,13 @@ from printProgress import printProgress
 import time
 import os
 
-def waitForElement(driver, id):
-	timeout = 10
+def waitForElement(driver, modeinfo = "", mode = "id", timeout = 10):
 	try:
-		check = EC.presence_of_element_located((By.ID, id))
-		WebDriverWait(driver, timeout).until(check)
-		#print("Page Loaded!")
+		if mode=="id":
+			check = EC.visibility_of_element_located((By.ID, modeinfo))
+			WebDriverWait(driver, timeout).until(check)
+		elif mode=="xpath":
+			check = EC.visibility_of_element_located((By.XPATH, modeinfo))
+			WebDriverWait(driver, timeout).until(check)
 	except TimeoutException:
 		print("Timeout exception while waiting for id: " + id)

@@ -1,9 +1,5 @@
 from selenium import webdriver
 
-
-import time
-import os
-
 from Elements import Elements, simpleElement, subfolderElement
 from waitForElement import waitForElement
 
@@ -56,7 +52,6 @@ def printElements(elements, level=0):
 def exploreSubFolders(driver, elements):
 	for i, subfolder in enumerate(elements.subfolder):
 
-		#print("------- exploring: \n" + subfolder.title + "\nat link:\n" + subfolder.link)
 		print("subfolder " + str(i+1).ljust(2) + " of " + str(len(elements.subfolder)))
 		driver.get(subfolder.link)
 		waitForElement(driver, 'page-content')
@@ -90,10 +85,6 @@ def parsePage(driver, URL):
 	
 	src = driver.page_source
 
-	'''f=open("chimica.txt", "r")
-	src = f.read()
-	f.close()'''
-
 	sub = "href=\"https:"
 
 	res = [i+6 for i in range(len(src)) if src.startswith(sub, i)] 
@@ -117,21 +108,9 @@ def parsePage(driver, URL):
 			elements.resource.append(simpleElement(title, link))
 		elif "/folder/" in link and link!=URL:
 			title = findTitle(src, end[i])
-			#print("just added\n " + link + "\nwhile URL is\n " + URL)
 			elements.subfolder.append(subfolderElement(title, link))
-
-	'''print("FOUND: " + str(len(elements.subfolder)) + " elements")
-	print("   at URL " + driver.current_url)'''
-
-	'''if URL!="https://elearning.unipd.it/chimica/course/view.php?id=603":
-		for sub in elements.subfolder:
-			print(sub.title + " " + sub.link)
-		driver.quit()
-		exit()'''
 
 	if len(elements.subfolder)>0 :
 		exploreSubFolders(driver, elements)
-
-	#printElements(elements)
 
 	return elements

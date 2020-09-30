@@ -2404,3 +2404,236 @@ console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Err
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1601469554475	geckodriver	INFO	Listening on 127.0.0.1:58923
+1601469555467	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHTmrpK"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601469559430	Marionette	INFO	Listening on port 37885
+1601469559488	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601469569556	Marionette	INFO	Stopped listening on port 37885
+1601469604816	geckodriver	INFO	Listening on 127.0.0.1:56709
+1601469604822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMvHElp"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601469607608	Marionette	INFO	Listening on port 45535
+1601469607637	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+1601469691079	Marionette	INFO	Stopped listening on port 45535
+1601469692797	geckodriver	INFO	Listening on 127.0.0.1:54125
+1601469692803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTpFnIY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601469695710	Marionette	INFO	Listening on port 40855
+1601469695813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601469727373	Marionette	INFO	Stopped listening on port 40855
+1601471766560	geckodriver	INFO	Listening on 127.0.0.1:47879
+1601471766566	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMTnCRj"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601471769013	Marionette	INFO	Listening on port 40335
+1601471769098	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601471825042	geckodriver	INFO	Listening on 127.0.0.1:45887
+1601471825057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKQBirQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601471827936	Marionette	INFO	Listening on port 45651
+1601471827971	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+1601471851365	Marionette	INFO	Stopped listening on port 40335
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601471900181	Marionette	INFO	Stopped listening on port 45651
+1601471901899	geckodriver	INFO	Listening on 127.0.0.1:40817
+1601471901905	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefXTLAh"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601471904687	Marionette	INFO	Listening on port 34475
+1601471904716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=20220, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15488, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15489, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19382, line 1493: ReferenceError: $ is not defined
+1601471955666	Marionette	INFO	Stopped listening on port 34475
+1601472129187	geckodriver	INFO	Listening on 127.0.0.1:39933
+1601472129193	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesgcnMS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472131901	Marionette	INFO	Listening on port 35921
+1601472132003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601472334688	geckodriver	INFO	Listening on 127.0.0.1:33289
+1601472334695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAAtJ9Q"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472337435	Marionette	INFO	Listening on port 39313
+1601472337508	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+1601472366253	Marionette	INFO	Stopped listening on port 39313
+1601472454176	geckodriver	INFO	Listening on 127.0.0.1:39971
+1601472454185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileScbcfY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472456943	Marionette	INFO	Listening on port 34133
+1601472456994	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601472578573	geckodriver	INFO	Listening on 127.0.0.1:53117
+1601472578580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledQnBeE"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472581604	Marionette	INFO	Listening on port 41169
+1601472581692	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601472677925	geckodriver	INFO	Listening on 127.0.0.1:38847
+1601472677931	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQVppf5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472680657	Marionette	INFO	Listening on port 42923
+1601472680742	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601472965716	geckodriver	INFO	Listening on 127.0.0.1:58577
+1601472965723	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFmHrhQ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601472968402	Marionette	INFO	Listening on port 41257
+1601472968459	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+1601473145410	geckodriver	INFO	Listening on 127.0.0.1:57909
+1601473145417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3wyK1H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473147975	Marionette	INFO	Listening on port 37133
+1601473148036	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+1601473167473	Marionette	INFO	Stopped listening on port 37133
+1601473168748	Marionette	INFO	Stopped listening on port 41257
+1601473186393	geckodriver	INFO	Listening on 127.0.0.1:35021
+1601473186400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerHPuNO"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473189024	Marionette	INFO	Listening on port 46215
+1601473189109	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+1601473259712	geckodriver	INFO	Listening on 127.0.0.1:52835
+1601473259718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileo4bkdd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473262354	Marionette	INFO	Listening on port 46183
+1601473262433	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1601473339471	Marionette	INFO	Stopped listening on port 46215
+1601473398450	geckodriver	INFO	Listening on 127.0.0.1:60203
+1601473398457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6gLlhR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473401112	Marionette	INFO	Listening on port 41061
+1601473401174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1601473756116	geckodriver	INFO	Listening on 127.0.0.1:48835
+1601473756123	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileReBTVY"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473758721	Marionette	INFO	Listening on port 41587
+1601473758774	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601473963204	geckodriver	INFO	Listening on 127.0.0.1:37131
+1601473963210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHkiS05"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601473965842	Marionette	INFO	Listening on port 35741
+1601473965921	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/chimica/login/index.php, line 339: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1520: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/lib/javascript.php/1600239642/lib/requirejs/require.min.js, line 1: Error: Script error for "jquery", needed by: core/first
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=18588, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=15476, line 1493: ReferenceError: $ is not defined
+JavaScript error: https://elearning.unipd.it/chimica/mod/folder/view.php?id=19609, line 1493: ReferenceError: $ is not defined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.

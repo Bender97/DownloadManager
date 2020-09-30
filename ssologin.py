@@ -5,107 +5,121 @@ import time
 
 from waitForElement import waitForElement
 
+class SSOLogin:
+    def __init__(self, driver):
+        self.driver = driver
 
-#1 DRIVE TO REQUESTED PAGE
-#2 CHECK IF LOGIN IS NECESSARY
+    def isPolicyPage(self):
+        return "/user/policy.php" in self.driver.current_url
 
-def isPolicyPage(driver):
-    return "/user/policy.php" in driver.current_url
+    def isLoginRequested(self):
+        return "/login/index.php" in self.driver.current_url
 
-def isLoginRequested(driver):
-    return "/login/index.php" in driver.current_url
-
-def extractHref(text):
-    sub = "href"
-    start = -1
-    
-    for i in range(len(text)):
-        if (text.startswith(sub, i)):
-            start = i+6
-            break
-    if (start<0):
-        print("error: couldn't find login page start href")
-        exit(0)
-
-    sub = "\""
-
-    for i in range(start, len(text)):
-        if (text.startswith(sub, i)):
-            end = i
-            break
-    if (end<0):
-        print("error: couldn't complete login href link")
-        exit(0)
-    link = text[start:end]
-    return link
-
-def clickLinkInsideInnerHTML(elem, driver, delay):
-    link = extractHref(elem.get_attribute("innerHTML"))
-    driver.get(link)
-    time.sleep(delay)
-
-def clickLogin(driver):
-    elem = driver.find_element_by_class_name("login")
-    clickLinkInsideInnerHTML(elem, driver, 5)
-
-def clickShibbox(driver):
-    elem = driver.find_element_by_id("shibbox")
-    clickLinkInsideInnerHTML(elem, driver, 5)
-
-
-def SSOLogin(driver, courseURL):
-    while True:
-        driver.get(courseURL)
-
-        waitForElement(driver, 'guestlogin')
-
-        if isPolicyPage(driver):
-            clickLogin(driver)
-            clickShibbox(driver)
-            
-        else:
-            if (isLoginRequested(driver)):
-                clickShibbox(driver)
-                #exit(0)
-            else:
-                print("no")
-                exit(0)
-
-        if (driver.current_url == courseURL):
-            break     
-
-        while(True):
-            try:
-
-                #driver.get(sso_path)
-
-                '''print("insert username: ")
-                username = input()
-
-                print("insert password: ")
-                psw = input() '''
-
-                waitForElement(driver, 'j_username_js')
-                elem = driver.find_element_by_id('j_username_js')
-                #elem.clear()
-                elem.send_keys('daniel.fusaro')
-                #elem.send_keys(username)
-                waitForElement(driver, 'password')
-                elem = driver.find_element_by_id('password')
-                #elem.clear()
-                elem.send_keys('Ilcielo3blu')
-                #elem.send_keys(psw)
-                waitForElement(driver, 'radio2')
-                elem = driver.find_element_by_id('radio2')
-                elem.click()
-
-                
-                waitForElement(driver, 'login_button_js')
-                elem = driver.find_element_by_id('login_button_js')
-                elem.click()
+    def extractHref(self, text):
+        sub = "href"
+        start = -1
+        
+        for i in range(len(text)):
+            if (text.startswith(sub, i)):
+                start = i+6
                 break
-            except Exception as err:
-                print(err)
+        if (start<0):
+            print("error: couldn't find login page start href")
+            self.driver.quit()
+            exit(0)
 
-        if (driver.current_url == courseURL):
-            break
+        sub = "\""
+
+        for i in range(start, len(text)):
+            if (text.startswith(sub, i)):
+                end = i
+                break
+        if (end<0):
+            print("error: couldn't complete login href link")
+            self.driver.quit()
+            exit(0)
+        link = text[start:end]
+        return link
+
+    def clickLinkInsideInnerHTML(self, elem, delay):
+        link = self.extractHref(elem.get_attribute("innerHTML"))
+        self.driver.get(link)
+
+    def clickLogin(self):
+        elem = self.driver.find_element_by_class_name("login")
+        self.clickLinkInsideInnerHTML(elem, 5)
+
+    def clickShibbox(self):
+        elem = self.driver.find_element_by_id("shibbox")
+        self.clickLinkInsideInnerHTML(elem, 5)
+
+    def loginWithInputCredentials(self):
+        waitForElement(self.driver, 'j_username_js')
+        elem = self.driver.find_element_by_id('j_username_js')
+        username = input()
+        elem.send_keys(username)
+        waitForElement(self.driver, 'password')
+        elem = self.driver.find_element_by_id('password')
+        psw = input()
+        elem.send_keys(psw)
+        waitForElement(self.driver, 'radio2')
+        elem = self.driver.find_element_by_id('radio2')
+        elem.click()
+
+        waitForElement(self.driver, 'login_button_js')
+        elem = self.driver.find_element_by_id('login_button_js')
+        elem.click()
+
+    def loginWithDefaultCredentials(self):
+        waitForElement(self.driver, 'j_username_js')
+        elem = self.driver.find_element_by_id('j_username_js')
+        elem.send_keys('daniel.fusaro')
+        waitForElement(self.driver, 'password')
+        elem = self.driver.find_element_by_id('password')
+        elem.send_keys('Ilcielo3blu')
+        waitForElement(self.driver, 'radio2')
+        elem = self.driver.find_element_by_id('radio2')
+        elem.click()
+
+        
+        waitForElement(self.driver, 'login_button_js')
+        elem = self.driver.find_element_by_id('login_button_js')
+        elem.click()
+
+
+    def login(self, courseURL):
+        while True:
+            self.driver.get(courseURL)
+
+            if (self.driver.current_url == courseURL):
+                break
+
+            waitForElement(self.driver, 'guestlogin')
+
+            if self.isPolicyPage():
+                self.clickLogin()
+                self.clickShibbox()
+                
+            else:
+                if (self.isLoginRequested()):
+                    self.clickShibbox()
+                else:
+                    print("no Shibbox login has been found.\n"/
+                        "Consider redoing the cycle of ssologin\n"/
+                        "Aborting...")
+                    exit(0)
+
+            if (self.driver.current_url == courseURL):
+                break
+
+            while(True):
+                try:
+                    self.loginWithDefaultCredentials()
+                    waitForElement(self.driver, modeinfo="//div[@class='usermenu']", mode="xpath")
+                    break
+                except Exception as err:
+                    print("some error occurred")
+                    print(err)
+
+            if (self.driver.current_url == courseURL):
+                break

@@ -1,8 +1,8 @@
 from printProgress import printProgress
+from OSUtilities import checkAndMkDir
 
 import requests
 import time
-import os
 
 def getTitle(src):
 	print(src)
@@ -23,9 +23,7 @@ def getTitle(src):
 
 def downloadResources(driver, resources, path=""):
 
-	# CHECK IF FOLDER EXISTS. IF NOT: MKDIR
-	if not os.path.isdir(path + '/pdf'):
-		os.mkdir(path + '/pdf')
+	checkAndMkDir(path, '/pdf')
 
 	printProgress(0, len(resources), msg="[res]")
 

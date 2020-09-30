@@ -1,0 +1,28 @@
+
+HANDLE LOGIN ERROR withInputCredentials
+
+
+rendere classi molti metodi nei file
+
+riorganizzare e standardizzare
+	- in particolare le funzioni di download che sono troppo sparse
+
+realizzare stampa su file dei video da YouTube, oppure scaricarli veramente
+
+rendere più User Friendly la grafica:
+	download button colorato ben visibile
+	impostare cartella preferita di download
+	edit mode (per modificare le preferenze, preimpostate di default)
+
+aggiungere più try-except per error handling
+	(ho modificato l'except in ssologin, verificare che funziona)
+
+rendere silente (vedi webdriver.JSPhantom()) la navigazione
+
+aggiungere una grafica più accattivante per la gestione dello stato (ho fatto questo, ho fatto quello)
+
+
+vedere se si può fare qualcosa per downloadCallback e simili (troppa ripetizione di codice)
+
+
+modificare e rendere unica l'impostazione del font da usare nella UI (font Helvetica 18 bold dovrebbe essere definito in un file di configurazione) 
