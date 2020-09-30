@@ -21,7 +21,7 @@ ssologin.login(courseURL)
 elements = parsePage(driver, courseURL)
 
 ui = UI(elements)
-selection = ui.performSelection()
+selection = ui.UI_CategorySorted()
 
 download = Download()
 download.download(driver, selection)

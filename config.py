@@ -1,0 +1,6 @@
+PDF 	= 0
+ARCHIVE = 1
+ZOOM 	= 2
+VIDEO 	= 3
+YOUTUBE = 4
+supportedTypes = [PDF, ARCHIVE, ZOOM, VIDEO, YOUTUBE]
