@@ -23,13 +23,20 @@ class Elements:
 		return False
 
 
-class MoodleElements:
-	def __init__(self, elementType, title, link, elements=None):
-		if self.type not in supportedTypes:
+class MoodleElement:
+	def __init__(self, elementType, title, link=""):
+		if elementType not in supportedTypes:
 			print("Error: MoodleElement type requested is not supported yet.")
 			exit()
+		
+		if link=="" and elementType!=SECTION:
+			print("Error: an empty link is allowed only with section elements.")
+			exit()
+
 		self.type = elementType
 		self.title = title
 		self.link = link
-		if elements!=None:
-			self.elements = elements
+		self.widget = None
+		if elementType==SUBFOLDER:
+			self.elements = []
+			self.expand = False

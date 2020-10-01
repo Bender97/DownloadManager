@@ -1,7 +1,6 @@
 
 HANDLE LOGIN ERROR withInputCredentials
 
-
 rendere classi molti metodi nei file
 
 riorganizzare e standardizzare
@@ -26,3 +25,13 @@ vedere se si può fare qualcosa per downloadCallback e simili (troppa ripetizion
 
 
 modificare e rendere unica l'impostazione del font da usare nella UI (font Helvetica 18 bold dovrebbe essere definito in un file di configurazione) 
+
+############################
+capire come cacchio selezionare anche la subfolder al click, oltre che espanderla
+(command overrida il metodo di default, che prob è select(). ma per qualche motivo select non va.)
+
+
+capito: updateGraphics perde la memoria di quali chkbtns erano clickati.
+select() funziona eccome
+
+############################

@@ -114,6 +114,8 @@ class SSOLogin:
 
             while(True):
                 try:
+                    if (self.driver.current_url == courseURL):
+                        break
                     self.loginWithDefaultCredentials()
                     waitForElement(self.driver, modeinfo="//div[@class='usermenu']", mode="xpath")
                     break
