@@ -26,6 +26,37 @@ vedere se si può fare qualcosa per downloadCallback e simili (troppa ripetizion
 
 modificare e rendere unica l'impostazione del font da usare nella UI (font Helvetica 18 bold dovrebbe essere definito in un file di configurazione) 
 
+
+select all files of a certain type
+
+cache downloaded files (in order to say "Hey you already downloaded this, you can skip")
+
+implement a "downloading progress bar" in a new window frame with only selected items
+
+lavorare su tutti i diversi tipi di link/situazioni in cui ci si può trovare
+		finora abbiamo trovato:
+			- file acdc nella homepage
+			- file acdc nella mediagallery
+			- link nella homepage che rimandano ad un video in mediaspace.unipd
+			- link nella homepage che rimandano a youtube
+
+
 ############################
+
+	provare il programma su windows
+
+	silenziare ffmpeg
+
+	lavorare sugli url: scaricare l'icona adatta, visualizzarli come url.
+	Al download di un url:
+		driver.get(url)
+		Se l'url contiene un video, lo scarichi. altrimenti, ciccia.
+			il problema è: quanto aspetti?
+			in questo caso, settare un timeout. (es, 5 sec)
+			perché per esempio url di mediaspace, porta a un video, per il quale bisogna aspettare solo il secondo iframe rispetto al solito.
+				però ci mette tanto a caricarsi (almeno, sull'iPad). Può essere che l'iframe non sia pronto dopo 5 secondi.
+				Idea: aspettare che si carichi una parte che nelle pagine c'è sempre dopo un po'. 
+				Per ora, setta e basta un timeout.
+
 
 ############################

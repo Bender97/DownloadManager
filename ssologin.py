@@ -19,6 +19,9 @@ class SSOLogin:
     def isLoginRequested(self):
         return "/login/index.php" in self.driver.current_url
 
+    def isEnrolPage(self):
+        return "/enrol/" in self.driver.current_url
+
     def extractHref(self, text):
         sub = "href"
         start = -1
@@ -98,6 +101,7 @@ class SSOLogin:
                 with open("driver.pkl", "rb") as f:
                     date, cookies = pickle.load(f)
                     if (time.time()-date<COOKIE_EXPIRY_ESTIMATE):
+                        print("COOKIES are acceptable")
                         self.driver.get(courseURL)
                         self.driver.delete_all_cookies()
                         for cookie in cookies:
@@ -110,16 +114,19 @@ class SSOLogin:
                 pass
         if flag:
             return
-        
+        print("COOKIES are NOT acceptable")
         while True:
             self.driver.get(courseURL)
 
             if (self.driver.current_url == courseURL):
                 break
+            time.sleep(2)
 
-            waitForElement(self.driver, 'guestlogin')
+            #if (self.isLoginRequested()):
 
-            if self.isPolicyPage():
+            #waitForElement(self.driver, 'guestlogin')
+            #waitForElement(self.driver, modeinfo="//a[@name='ssologin']", mode="xpath")
+            if self.isPolicyPage() or self.isEnrolPage():
                 self.clickLogin()
                 self.clickShibbox()
                 
@@ -127,9 +134,9 @@ class SSOLogin:
                 if (self.isLoginRequested()):
                     self.clickShibbox()
                 else:
-                    print("no Shibbox login has been found.\n"/
-                        "Consider redoing the cycle of ssologin\n"/
-                        "Aborting...")
+                    print("no Shibbox login has been found.\n" /
+                        +"Consider redoing the cycle of ssologin\n" /
+                        +"Aborting...")
                     exit(0)
 
             if (self.driver.current_url == courseURL):

@@ -13,4 +13,4 @@ def waitForElement(driver, modeinfo = "", mode = "id", timeout = 10):
 			check = EC.visibility_of_element_located((By.XPATH, modeinfo))
 			WebDriverWait(driver, timeout).until(check)
 	except TimeoutException:
-		print("Timeout exception while waiting for id: " + id)
+		print("Timeout exception while waiting for id: " + modeinfo)

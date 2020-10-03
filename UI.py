@@ -40,7 +40,7 @@ class UI:
 		self.pdf_icon = tk.PhotoImage(file="img/pdf_icon.png")
 		self.youtube_icon = tk.PhotoImage(file="img/youtube_icon.png")
 		self.subfolder_icon = tk.PhotoImage(file="img/subfolder_icon.png")
-		#self.archive_icon = tk.PhotoImage(file="../img/archive_icon.png")
+		self.archive_icon = tk.PhotoImage(file="img/archive_icon.png")
 
 	def initiateCheckVariables(self):
 		for elem in self.elements:
@@ -192,9 +192,9 @@ class UI:
 		elif (elem.type == SUBFOLDER):
 			self.buildCheckbutton(elem, self.subfolder_icon, self.frame)
 			elem.widget.configure(command = lambda: self.subfolderCallback(elem))
-		'''elif (elem.type == ARCHIVE):
-			pass
-		elif (elem.type == ZOOM):
+		elif (elem.type == ARCHIVE):
+			self.buildCheckbutton(elem, self.archive_icon, self.frame)
+		'''elif (elem.type == ZOOM):
 			pass'''
 
 	def onFrameConfigure(self, canvas):
@@ -216,10 +216,12 @@ class UI:
 			self.configureUIElement(pdf)
 			vid = Element(SECTION, "VIDEO Resources")
 			self.configureUIElement(vid)
+			arc = Element(SECTION, "ARCHIVE Resources")
+			self.configureUIElement(arc)
 			sub = Element(SECTION, "SUBFOLDER Resources")
 			self.configureUIElement(sub)
 
-			for elemType, section in [[PDF, pdf], [VIDEO, vid], [SUBFOLDER, sub]]:
+			for elemType, section in [[PDF, pdf], [VIDEO, vid], [ARCHIVE, arc], [SUBFOLDER, sub]]:
 				self.categorySortedElements.append(section)
 				for elem in self.elements:
 					if elem.type==elemType:

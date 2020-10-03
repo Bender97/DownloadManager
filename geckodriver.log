@@ -4038,3 +4038,541 @@ http://requirejs.org/docs/errors.html#scripterror
 JavaScript error: https://elearning.unipd.it/chimica/course/view.php?id=603, line 1515: ReferenceError: $ is not defined
 JavaScript error: https://elearning.unipd.it/chimica/mod/kalvidres/view.php?id=17451, line 1479: ReferenceError: $ is not defined
 1601718252075	Marionette	INFO	Stopped listening on port 37443
+1601724030458	geckodriver	INFO	Listening on 127.0.0.1:51973
+1601724030466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile6gQ4c6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601724033552	Marionette	INFO	Listening on port 42877
+1601724033586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601725640123	Marionette	INFO	Stopped listening on port 42877
+1601725641619	geckodriver	INFO	Listening on 127.0.0.1:48545
+1601725641626	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5ueAvU"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725644233	Marionette	INFO	Listening on port 38057
+1601725644241	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601725653721	Marionette	INFO	Stopped listening on port 38057
+1601725685606	geckodriver	INFO	Listening on 127.0.0.1:35021
+1601725685612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYwG2un"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725688348	Marionette	INFO	Listening on port 35431
+1601725688422	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 235: Error: Invalid autocomplete selectedIndex
+console.error: "Panel inspector:" (new TypeError("event is undefined", "resource://devtools/client/shared/telemetry.js", 697))
+1601725795169	Marionette	INFO	Stopped listening on port 35431
+1601725809232	geckodriver	INFO	Listening on 127.0.0.1:48003
+1601725809239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile1l212l"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725811952	Marionette	INFO	Listening on port 36947
+1601725812049	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601725830946	Marionette	INFO	Stopped listening on port 36947
+1601725864930	geckodriver	INFO	Listening on 127.0.0.1:57391
+1601725864937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYiUbbf"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725867561	Marionette	INFO	Listening on port 42327
+1601725867647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601725882602	Marionette	INFO	Stopped listening on port 42327
+1601725894444	geckodriver	INFO	Listening on 127.0.0.1:43193
+1601725894450	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecToHRZ"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725897084	Marionette	INFO	Listening on port 38545
+1601725897160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601725913643	Marionette	INFO	Stopped listening on port 38545
+1601725937141	geckodriver	INFO	Listening on 127.0.0.1:46839
+1601725937148	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTuqjkb"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601725939617	Marionette	INFO	Listening on port 45871
+1601725939679	Marionette	WARN	TLS certificate errors will be ignored for this session
+1601726074232	geckodriver	INFO	Listening on 127.0.0.1:48317
+1601726074239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileS03JvH"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601726076896	Marionette	INFO	Listening on port 38623
+1601726076954	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "report_allylti/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/policyactions"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/jquery-eu-cookie-law-popup"
+http://requirejs.org/docs/errors.html#scripterror
+1601726096378	Marionette	INFO	Stopped listening on port 38623
+1601726124993	geckodriver	INFO	Listening on 127.0.0.1:49601
+1601726124999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefmho2b"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601726127762	Marionette	INFO	Listening on port 39559
+1601726127820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "jquery", needed by: core/first
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_router", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/pubsub", needed by: core_message/message_popover, core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/pending", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_group_info", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_contacts", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_overview", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/templates", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/url", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/imagecover", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_area_events", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/ajax", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/tether", needed by: theme_unipdboost/loader
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_routes", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/drawer", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_contact", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_settings", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/custom_interaction_events", needed by: message_popup/notification_popover_controller, core_message/message_popover, core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/popover_region_controller", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/util", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_search", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_events", needed by: core_message/message_popover, core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event", needed by: theme_unipdboost/loader
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_conversation", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/ally", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_repository", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+1601726169205	Marionette	INFO	Stopped listening on port 39559
+1601726532712	geckodriver	INFO	Listening on 127.0.0.1:50429
+1601726532718	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4rETLM"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601726535200	Marionette	INFO	Listening on port 40345
+1601726535243	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "jquery", needed by: core/first
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "jquery", needed by: core/first
+http://requirejs.org/docs/errors.html#scripterror
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601726544848	Marionette	INFO	Stopped listening on port 45871
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_popover"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/popover_region_controller", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_area_events", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/util", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/url", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/custom_interaction_events", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/ally", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/imagecover", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/ajax", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/templates", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_repository", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+1601726595873	Marionette	INFO	Stopped listening on port 40345
+1601726821117	geckodriver	INFO	Listening on 127.0.0.1:35293
+1601726821123	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevgOGgW"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601726823814	Marionette	INFO	Listening on port 46751
+1601726823841	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/util", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/imagecover", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/ally", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log", needed by: theme_unipdboost/drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event", needed by: theme_unipdboost/form-display-errors
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/templates", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/policyactions"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+JavaScript error: , line 0: AbortError: The fetching process for the media resource was aborted by the user agent at the user's request.
+1601728271965	Marionette	INFO	Stopped listening on port 46751
+1601750939931	geckodriver	INFO	Listening on 127.0.0.1:56707
+1601750940893	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJN8mNG"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601750946443	Marionette	INFO	Listening on port 35955
+1601750946512	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/policyactions"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "report_allylti/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/jquery-eu-cookie-law-popup"
+http://requirejs.org/docs/errors.html#scripterror
+1601750965393	Marionette	INFO	Stopped listening on port 35955
+1601753568226	geckodriver	INFO	Listening on 127.0.0.1:40749
+1601753568232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAa2x9M"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601753571013	Marionette	INFO	Listening on port 35867
+1601753571045	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1601753590530	geckodriver	INFO	Listening on 127.0.0.1:45623
+1601753590537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelkcjP5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601753593213	Marionette	INFO	Listening on port 34473
+1601753593252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601753606172	Marionette	INFO	Stopped listening on port 34473
+1601753623108	geckodriver	INFO	Listening on 127.0.0.1:51471
+1601753623115	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilec3zXcA"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601753625929	Marionette	INFO	Listening on port 46031
+1601753626032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601753748160	Marionette	INFO	Stopped listening on port 46031
+1601753748756	geckodriver	INFO	Listening on 127.0.0.1:60155
+1601753748764	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8GjqXz"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601753751486	Marionette	INFO	Listening on port 36289
+1601753751573	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601753813498	Marionette	INFO	Stopped listening on port 36289
+1601753827308	geckodriver	INFO	Listening on 127.0.0.1:42075
+1601753827314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecsIAQr"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601753830088	Marionette	INFO	Listening on port 40555
+1601753830127	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601753837445	Marionette	INFO	Stopped listening on port 40555
+1601754305733	geckodriver	INFO	Listening on 127.0.0.1:45593
+1601754305740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4DaQWX"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601754308469	Marionette	INFO	Listening on port 33315
+1601754308549	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601754345382	geckodriver	INFO	Listening on 127.0.0.1:43905
+1601754345389	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehexyuN"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601754348130	Marionette	INFO	Listening on port 38221
+1601754348198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1601754437675	Marionette	INFO	Stopped listening on port 38221
+1601754445073	geckodriver	INFO	Listening on 127.0.0.1:45755
+1601754445080	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileb2xdwL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601754447786	Marionette	INFO	Listening on port 37939
+1601754447791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 697))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 351))
+1601754469082	Marionette	INFO	Stopped listening on port 37939
+1601755313361	geckodriver	INFO	Listening on 127.0.0.1:38273
+1601755313367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehsyO1L"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601755316127	Marionette	INFO	Listening on port 46875
+1601755316177	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601755358501	Marionette	INFO	Stopped listening on port 46875
+1601756543952	geckodriver	INFO	Listening on 127.0.0.1:44109
+1601756543959	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQl7CkS"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756546733	Marionette	INFO	Listening on port 33337
+1601756546767	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601756560121	geckodriver	INFO	Listening on 127.0.0.1:53257
+1601756560127	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3iK4Xn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756563116	Marionette	INFO	Listening on port 40483
+1601756563152	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601756595352	Marionette	INFO	Stopped listening on port 40483
+1601756606895	geckodriver	INFO	Listening on 127.0.0.1:56371
+1601756606901	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelIW6WB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756609906	Marionette	INFO	Listening on port 43847
+1601756609913	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1601756638457	geckodriver	INFO	Listening on 127.0.0.1:35425
+1601756638463	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3zf2Wn"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756641301	Marionette	INFO	Listening on port 43005
+1601756641371	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601756668076	Marionette	INFO	Stopped listening on port 43005
+1601756699704	geckodriver	INFO	Listening on 127.0.0.1:45921
+1601756699711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3uQNlt"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756702367	Marionette	INFO	Listening on port 43253
+1601756702420	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/lib/javascript.php/1599652412/lib/requirejs/require.min.js, line 1: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601756781044	geckodriver	INFO	Listening on 127.0.0.1:59579
+1601756781051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEUOZ2B"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601756783875	Marionette	INFO	Listening on port 44163
+1601756783969	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6808, line 452: ReferenceError: $ is not defined
+1601757170231	Marionette	INFO	Stopped listening on port 44163
+1601760309247	geckodriver	INFO	Listening on 127.0.0.1:41385
+1601760309258	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWWDBXC"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760312004	Marionette	INFO	Listening on port 34229
+1601760312079	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+1601760328142	Marionette	INFO	Stopped listening on port 34229
+1601760386235	geckodriver	INFO	Listening on 127.0.0.1:49081
+1601760386241	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileTJt2Y7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760388885	Marionette	INFO	Listening on port 44375
+1601760388950	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 408: TypeError: M.core.actionmenu is undefined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+1601760434182	Marionette	INFO	Stopped listening on port 44375
+1601760502633	geckodriver	INFO	Listening on 127.0.0.1:34055
+1601760502639	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileToR23O"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760505445	Marionette	INFO	Listening on port 41061
+1601760505548	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601760520446	Marionette	INFO	Stopped listening on port 41061
+1601760587728	geckodriver	INFO	Listening on 127.0.0.1:57351
+1601760587735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileizazFd"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760590357	Marionette	INFO	Listening on port 36451
+1601760590445	Marionette	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601760595985	geckodriver	INFO	Listening on 127.0.0.1:43867
+1601760595992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyf9Pu7"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760598937	Marionette	INFO	Listening on port 40539
+1601760599003	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1601760620541	Marionette	INFO	Stopped listening on port 40539
+1601760629389	geckodriver	INFO	Listening on 127.0.0.1:38687
+1601760629396	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBmgn3Q"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760632053	Marionette	INFO	Listening on port 46321
+1601760632105	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 436: TypeError: M.filter_mathjaxloader is undefined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+1601760652648	Marionette	INFO	Stopped listening on port 46321
+1601760949163	geckodriver	INFO	Listening on 127.0.0.1:56995
+1601760949169	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5zUwtg"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601760951977	Marionette	INFO	Listening on port 33549
+1601760952079	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 408: TypeError: M.core.actionmenu is undefined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/kalvidres/view.php?id=295655, line 454: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/kalvidres/view.php?id=297099, line 454: ReferenceError: $ is not defined
+1601761757689	Marionette	INFO	Stopped listening on port 33549

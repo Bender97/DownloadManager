@@ -32,31 +32,42 @@ def handleKalturaVideo(url, filename):
 	
 	print(url)
 	print(filename)
-	print("ffmpeg -i \"" + url + "\" -codec copy " + filename + " > /dev/null 2>&1")
+	print("ffmpeg -i \"" + url + "\" -codec copy \"" + filename + "\" > /dev/null 2>&1")
 	#f = open(filename, "w")
 	#f.write(url)
 	#f.close()
 	# TODO sopprimere output di ffmpeg
-	os.system("ffmpeg -i \"" + url + "\" -codec copy " + filename)
+	os.system("ffmpeg -i \"" + url + "\" -codec copy \"" + filename + "\"")
 
-def getVideoElementURL(driver):
-	waitForElement(driver, 'contentframe')
+def getMoodleVideoElementURL(driver):
+	waitForElement(driver, 'contentframe', timeout = 2)
 	driver.switch_to.frame(driver.find_element_by_id("contentframe"))
 	waitForElement(driver, 'kplayer_ifp')
 	driver.switch_to.frame(driver.find_element_by_id("kplayer_ifp"))
 	waitForElement(driver, 'pid_kplayer')
 	elem = driver.find_element_by_id("pid_kplayer")
-
 	url = elem.get_attribute("src")
+	return url
 
+def getMediaSpaceVideoElementURL(driver):
+	waitForElement(driver, 'kplayer_ifp')
+	driver.switch_to.frame(driver.find_element_by_id("kplayer_ifp"))
+	waitForElement(driver, 'pid_kplayer')
+	elem = driver.find_element_by_id("pid_kplayer")
+	url = elem.get_attribute("src")
 	return url
 
 def downloadAVideo(driver, video, path="", fileindex = ""):
 
 	driver.get(video.link)
-	filename = path + ((fileindex.zfill(2) + "-") if fileindex!="" else "") + driver.title.replace(" ", "_") + ".mp4"
-
-	url = getVideoElementURL(driver)
+	filename = path + ((fileindex.zfill(2) + "-") if fileindex!="" else "") + driver.title + ".mp4"
+	#print(filename)
+	#driver.quit()
+	#exit()
+	if '/url/' in video.link:
+		url = getMediaSpaceVideoElementURL(driver)
+	else:
+		url = getMoodleVideoElementURL(driver)
 
 	if (url==""):
 		handleYoutubeVideo(driver, filename)#.blob

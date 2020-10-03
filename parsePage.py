@@ -55,8 +55,17 @@ def exploreSubFolders(driver, element):
 		link = src[startIndexes[i]:endIndexes[i]]
 		if "/pluginfile.php/" in link:
 			title = findTitle(src, endIndexes[i], pattern="\"fp-filename\"")
-			obj = Element(PDF, title, link)
-			elements.append(obj)
+			obj = None
+			if ".pdf" in title:
+				obj = Element(PDF, title, link)
+			elif ".zip" in title:
+				obj = Element(ARCHIVE, title, link)
+			elif ".mp4" in title:
+				obj = Element(VIDEO, title, link)
+			else:
+				print("I found an unknown MIME extension: " + title)
+			if obj!=None:
+				elements.append(obj)
 	element.elements = elements
 
 def parsePage(driver, URL, level=0):			## LOOK ALSO FOR sectionname
@@ -89,7 +98,7 @@ def parsePage(driver, URL, level=0):			## LOOK ALSO FOR sectionname
 						print(link)
 						driver.quit()
 						exit()
-					if "/kalvidres/" in link:
+					if "/kalvidres/" in link or '/url/' in link:
 						title = findTitle(src, j)
 						obj = Element(VIDEO, title, link)
 						elements.append(obj)
