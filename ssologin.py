@@ -1,9 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
+from OSUtilities import isFile
+
+import pickle
+from waitForElement import waitForElement
 
 import time
 
-from waitForElement import waitForElement
+from config import *
 
 class SSOLogin:
     def __init__(self, driver):
@@ -88,6 +92,25 @@ class SSOLogin:
 
 
     def login(self, courseURL):
+        flag = False
+        if (isFile("driver.pkl")):
+            try:
+                with open("driver.pkl", "rb") as f:
+                    date, cookies = pickle.load(f)
+                    if (time.time()-date<COOKIE_EXPIRY_ESTIMATE):
+                        self.driver.get(courseURL)
+                        self.driver.delete_all_cookies()
+                        for cookie in cookies:
+                            self.driver.add_cookie(cookie)
+                        self.driver.get(courseURL)
+                        waitForElement(self.driver, 'page')
+                        if (self.driver.current_url == courseURL):
+                            flag = True
+            except:
+                pass
+        if flag:
+            return
+        
         while True:
             self.driver.get(courseURL)
 

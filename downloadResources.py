@@ -1,5 +1,5 @@
-from printProgress import printProgress
-from OSUtilities import checkAndMkDir
+#from printProgress import printProgress
+from OSUtilities import checkAndMkDir, getcwd
 
 import requests
 import time
@@ -25,7 +25,7 @@ def downloadResources(driver, resources, path=""):
 
 	checkAndMkDir(path, '/pdf')
 
-	printProgress(0, len(resources), msg="[res]")
+	#printProgress(0, len(resources), msg="[res]")
 
 	with requests.Session() as session:
 
@@ -42,4 +42,4 @@ def downloadResources(driver, resources, path=""):
 			with open(filename, "wb") as fd:
 				for chunk in r.iter_content(chunk_size):
 					fd.write(chunk)
-			printProgress(i+1, len(resources), msg="[res]")
+			#printProgress(i+1, len(resources), msg="[res]")
