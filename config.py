@@ -1,3 +1,6 @@
+import platform
+
+
 PDF 		= 0
 ARCHIVE 	= 1
 ZOOM 		= 2
@@ -19,3 +22,5 @@ useDriver = True
 
 MODE = MOODLESIMULATOR
 #MODE = CATEGORYSORTED
+
+PLATFORM = platform.system()

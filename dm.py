@@ -3,8 +3,8 @@ from selenium import webdriver
 from ssologin import SSOLogin
 from Download import Download
 from parsePage import parsePage
-from setAndCreateFirefoxProfile import setAndCreateFirefoxProfile
-#from UI import UI
+
+from createDriver import createDriver
 from UI import UI
 
 from config import *
@@ -12,8 +12,6 @@ from config import *
 import os
 import pickle
 import time
-path_to_mozilladriver = "/home/fusy/geckodriver-v0.27.0-linux32/geckodriver"
-fp = setAndCreateFirefoxProfile()
 
 driver = None
 #courseURL = "https://elearning.dei.unipd.it/course/view.php?id=4476"	#
@@ -25,7 +23,7 @@ courseURL = "https://elearning.dei.unipd.it/course/view.php?id=6465" # game theo
 elements = None
 
 if useDriver:
-	driver = webdriver.Firefox(executable_path = path_to_mozilladriver, firefox_profile = fp)
+	driver = createDriver()
 	ssologin = SSOLogin(driver)
 	ssologin.login(courseURL)
 

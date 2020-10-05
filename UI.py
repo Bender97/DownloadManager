@@ -1,6 +1,6 @@
 from tkinter import *
 import tkinter as tk
-
+import platform
 from Element import Element
 from config import *
 
@@ -36,11 +36,18 @@ class UI:
 		self.root.update()
 
 	def loadImages(self):
-		self.recorded_zoom_icon = tk.PhotoImage(file="img/recorded_zoom_icon.png")
-		self.pdf_icon = tk.PhotoImage(file="img/pdf_icon.png")
-		self.youtube_icon = tk.PhotoImage(file="img/youtube_icon.png")
-		self.subfolder_icon = tk.PhotoImage(file="img/subfolder_icon.png")
-		self.archive_icon = tk.PhotoImage(file="img/archive_icon.png")
+		if (platform.system()=="Linux"):
+			self.recorded_zoom_icon = tk.PhotoImage(file="img/recorded_zoom_icon.png")
+			self.pdf_icon = tk.PhotoImage(file="img/pdf_icon.png")
+			self.youtube_icon = tk.PhotoImage(file="img/youtube_icon.png")
+			self.subfolder_icon = tk.PhotoImage(file="img/subfolder_icon.png")
+			self.archive_icon = tk.PhotoImage(file="img/archive_icon.png")
+		elif platform.system()=="Windows":
+			self.recorded_zoom_icon = tk.PhotoImage(file="img//recorded_zoom_icon.png")
+			self.pdf_icon = tk.PhotoImage(file="img//pdf_icon.png")
+			self.youtube_icon = tk.PhotoImage(file="img//youtube_icon.png")
+			self.subfolder_icon = tk.PhotoImage(file="img//subfolder_icon.png")
+			self.archive_icon = tk.PhotoImage(file="img//archive_icon.png")
 
 	def initiateCheckVariables(self):
 		for elem in self.elements:
@@ -104,12 +111,14 @@ class UI:
 
 		self.root.config(menu=menubar)
 
-	def configureCanvasToBeScrollable(self):
-		#FOR WINDOWS (must write function)
-		#ui.bindLinuxMouseScroll(canvas)
+	def bindMouse(self, elem):
+		if (platform.system()=="Linux"):
+			self.bindLinuxMouseScroll(self.canvas)
+		elif platform.system()=="Windows":
+			self.bindWindowsMouseScroll(self.canvas)
 
-		#FOR LINUX
-		self.bindLinuxMouseScroll(self.canvas)
+	def configureCanvasToBeScrollable(self):
+		self.bindMouse(self.canvas)
 
 		vsb = tk.Scrollbar(self.root, orient="vertical", command=self.canvas.yview)
 		self.canvas.configure(yscrollcommand=vsb.set)
@@ -237,7 +246,7 @@ class UI:
 		else:
 			elem.widget.grid(row=self.counter, sticky=W, padx=padx)
 
-		self.bindLinuxMouseScroll(elem.widget)
+		self.bindMouse(elem.widget)
 		self.counter += 1
 
 	def updateGraphics(self):
@@ -262,7 +271,7 @@ class UI:
 
 		self.frame.bind("<Configure>", lambda event, canvas=self.canvas: self.onFrameConfigure(self.canvas))
 
-		self.bindLinuxMouseScroll(self.frame)
+		self.bindMouse(self.frame)
 
 	def performSelection(self):
 		if (self.mode==MOODLESIMULATOR):

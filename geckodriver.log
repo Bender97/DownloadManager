@@ -4576,3 +4576,25 @@ JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 4
 JavaScript error: https://elearning.dei.unipd.it/mod/kalvidres/view.php?id=295655, line 454: ReferenceError: $ is not defined
 JavaScript error: https://elearning.dei.unipd.it/mod/kalvidres/view.php?id=297099, line 454: ReferenceError: $ is not defined
 1601761757689	Marionette	INFO	Stopped listening on port 33549
+1601915298362	geckodriver	INFO	Listening on 127.0.0.1:34795
+1601915299375	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuTd3pB"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601915303459	Marionette	INFO	Listening on port 43725
+1601915303492	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1601924208450	geckodriver	INFO	Listening on 127.0.0.1:53991
+1601924208457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilecNVPQL"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601924211159	Marionette	INFO	Listening on port 43913
+1601924211174	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
+1601924237132	Marionette	INFO	Stopped listening on port 43913
