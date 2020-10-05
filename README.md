@@ -18,7 +18,7 @@
            <li>modify the file <i>createDriver.py</i> pasting the path to the just extracted webdriver on the 44th row (inside quotes!!)</li>
         </ul>
       </li>
-      <li> in a command prompt terminal opened on the folder you downloaded from here (the extracted one!) type <i>python setup.py install
+      <li> in a command prompt terminal opened on the folder you downloaded from here (the extracted one!) type <i>python setup.py install</i>
       </li>
       <li>
         Use the program! :) on a command prompt terminal opened on the folder you downloaded from here (the extracted one!) type<br>
