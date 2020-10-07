@@ -113,9 +113,9 @@ class UI:
 
 	def bindMouse(self, elem):
 		if (platform.system()=="Linux"):
-			self.bindLinuxMouseScroll(self.canvas)
+			self.bindLinuxMouseScroll(elem)
 		elif platform.system()=="Windows":
-			self.bindWindowsMouseScroll(self.canvas)
+			self.bindWindowsMouseScroll(elem)
 
 	def configureCanvasToBeScrollable(self):
 		self.bindMouse(self.canvas)

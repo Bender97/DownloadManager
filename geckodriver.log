@@ -4598,3 +4598,235 @@ JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line
 JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
 JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=6465, line 452: ReferenceError: $ is not defined
 1601924237132	Marionette	INFO	Stopped listening on port 43913
+1602078742023	geckodriver	INFO	Listening on 127.0.0.1:50657
+1602078742976	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesmHs1p"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602078747150	Marionette	INFO	Listening on port 36029
+1602078747199	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602078771910	geckodriver	INFO	Listening on 127.0.0.1:50679
+1602078772922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilevfxgL5"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602078775539	Marionette	INFO	Listening on port 37125
+1602078775630	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+1602078780585	Marionette	INFO	Stopped listening on port 37125
+1602078817462	geckodriver	INFO	Listening on 127.0.0.1:40801
+1602078817470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSc4Pkk"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602078820009	Marionette	INFO	Listening on port 37561
+1602078820081	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1602078982452	geckodriver	INFO	Listening on 127.0.0.1:38817
+1602078982461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9qTVw8"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602078985241	Marionette	INFO	Listening on port 42977
+1602078985269	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602079086664	geckodriver	INFO	Listening on 127.0.0.1:35783
+1602079087678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles50I9r"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602079090402	Marionette	INFO	Listening on port 37179
+1602079090487	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1602079175394	geckodriver	INFO	Listening on 127.0.0.1:34983
+1602079175401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4dFDpR"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602079178105	Marionette	INFO	Listening on port 42839
+1602079178114	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1602079204107	Marionette	INFO	Stopped listening on port 42839
+1602079205057	Marionette	INFO	Stopped listening on port 37179
+1602079980914	geckodriver	INFO	Listening on 127.0.0.1:52951
+1602079980922	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileiha0Cj"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602079983669	Marionette	INFO	Listening on port 43603
+1602079983735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1602080007379	geckodriver	INFO	Listening on 127.0.0.1:46467
+1602080007388	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDWg2RI"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602080010152	Marionette	INFO	Listening on port 40461
+1602080010216	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.dei.unipd.it/user/policy.php, line 359: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/mod/page/view.php?id=1673, line 526: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+JavaScript error: https://elearning.dei.unipd.it/course/view.php?id=4476, line 452: ReferenceError: $ is not defined
+1602080034902	Marionette	INFO	Stopped listening on port 40461
+1602080533183	geckodriver	INFO	Listening on 127.0.0.1:34225
+1602080534194	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileUrwT5H"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602080536855	Marionette	INFO	Listening on port 40069
+1602080536915	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602080573284	Marionette	INFO	Stopped listening on port 40069
+1602080710509	geckodriver	INFO	Listening on 127.0.0.1:36049
+1602080710517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileU3S8ut"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602080713232	Marionette	INFO	Listening on port 33769
+1602080713326	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://elearning.unipd.it/math/course/view.php?id=649, line 421: TypeError: M.core.actionmenu is undefined
+1602080785635	Marionette	INFO	Stopped listening on port 33769
+1602080999342	geckodriver	INFO	Listening on 127.0.0.1:37137
+1602080999357	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile8ajBlc"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602081002049	Marionette	INFO	Listening on port 40075
+1602081002066	Marionette	WARN	TLS certificate errors will be ignored for this session
+1602081020384	Marionette	INFO	Stopped listening on port 40075
+1602081234744	geckodriver	INFO	Listening on 127.0.0.1:51933
+1602081234752	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilexl2mV6"
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1602081237433	Marionette	INFO	Listening on port 39071
+1602081237471	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/ajax", needed by: tool_policy/policyactions
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event", needed by: theme_unipdboost/form-display-errors
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/templates", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/util", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/modal_events", needed by: tool_policy/policyactions
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/imagecover", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification", needed by: tool_policy/policyactions
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/modal_factory", needed by: tool_policy/policyactions
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/ally", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/jquery-eu-cookie-law-popup"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/drawer"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/form-display-errors"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/policyactions"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "report_allylti/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/jquery-eu-cookie-law-popup"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "tool_policy/policyactions"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/notification"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/log"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/loader"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "report_allylti/main"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/first"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/page_global"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/custom_interaction_events", needed by: message_popup/notification_popover_controller, core_message/message_popover, core_message/message_drawer, theme_unipdboost/drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_repository", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_events", needed by: core_message/message_popover, core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_overview", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/url", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_router", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/ajax", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/yui", needed by: core/notification
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_contacts", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_conversation", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/util", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/event", needed by: theme_unipdboost/loader
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_group_info", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "theme_unipdboost/tether", needed by: theme_unipdboost/loader
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_settings", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/pubsub", needed by: core_message/message_popover, core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/drawer", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/imagecover", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_routes", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_contact", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/popover_region_controller", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/loglevel", needed by: core/log
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/str", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "message_popup/notification_area_events", needed by: message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/pending", needed by: core_message/message_drawer, core/notification
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core/templates", needed by: filter_ally/main, message_popup/notification_popover_controller
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "core_message/message_drawer_view_search", needed by: core_message/message_drawer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://elearning.unipd.it/dii/lib/javascript.php/-1/lib/requirejs/require.js, line 168: Error: Script error for "filter_ally/ally", needed by: filter_ally/main
+http://requirejs.org/docs/errors.html#scripterror
+1602081277612	Marionette	INFO	Stopped listening on port 39071

@@ -127,11 +127,8 @@ def parsePage(driver, URL, level=0):			## LOOK ALSO FOR sectionname
 
 	if level==0:
 		for elem in elements:
-			printElement(elem)
 			if elem.type==SUBFOLDER:
-				print("exploring subfolder")
 				exploreSubFolders(driver, elem)
-				for sub in elem.elements:
-					printElement(sub)
+				
 
 	return elements

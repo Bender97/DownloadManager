@@ -6,6 +6,7 @@ from parsePage import parsePage
 
 from createDriver import createDriver
 from UI import UI
+from CourseChoice import CourseChoice
 
 from config import *
 
@@ -14,13 +15,10 @@ import pickle
 import time
 
 driver = None
-#courseURL = "https://elearning.dei.unipd.it/course/view.php?id=4476"	#
-#courseURL = "https://elearning.unipd.it/chimica/course/view.php?id=603" #chimica
-#courseURL = "https://elearning.unipd.it/dii/course/view.php?id=2189" #azionamenti
-#courseURL = "https://elearning.dei.unipd.it/course/view.php?id=6808" # sistemi distribuiti
-courseURL = "https://elearning.dei.unipd.it/course/view.php?id=6465" # game theory
-#courseURL = "https://elearning.unipd.it/math/course/view.php?id=649" # cryptography
+
 elements = None
+
+courseURL = CourseChoice().getCourseURL()
 
 if useDriver:
 	driver = createDriver()
@@ -39,11 +37,9 @@ else:
 
 ui = UI(elements, mode = MODE)
 
-
 selection = ui.performSelection()
-#page-header
-#download = Download(driver, selection, target_folder_name="DINAMICA DEGLI AZIONAMENTI 2020-2021 - INP8085220")
-download = Download(driver, selection, target_folder_name="/GAME THEORY/")
+
+download = Download(driver, selection, target_folder_name="/" + elements[0].title + "/")
 download.download(selection)
 
 if useDriver:

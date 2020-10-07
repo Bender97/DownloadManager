@@ -1,0 +1,6 @@
+Calcolo Parallelo https://elearning.dei.unipd.it/course/view.php?id=4476
+Chimica Organica https://elearning.unipd.it/chimica/course/view.php?id=603
+Dinamica degli Azionamenti https://elearning.unipd.it/dii/course/view.php?id=2189
+Sistemi Distribuiti https://elearning.dei.unipd.it/course/view.php?id=6808
+Game Theory https://elearning.dei.unipd.it/course/view.php?id=6465
+Cryptography https://elearning.unipd.it/math/course/view.php?id=649

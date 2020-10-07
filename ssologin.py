@@ -60,14 +60,16 @@ class SSOLogin:
         elem = self.driver.find_element_by_id("shibbox")
         self.clickLinkInsideInnerHTML(elem, 5)
 
-    def loginWithInputCredentials(self):
+    def loginSequence(self, username=None, psw=None):
         waitForElement(self.driver, 'j_username_js')
         elem = self.driver.find_element_by_id('j_username_js')
-        username = input()
+        if username==None:
+            username = input()
         elem.send_keys(username)
         waitForElement(self.driver, 'password')
         elem = self.driver.find_element_by_id('password')
-        psw = input()
+        if psw==None:
+            psw = input()
         elem.send_keys(psw)
         waitForElement(self.driver, 'radio2')
         elem = self.driver.find_element_by_id('radio2')
@@ -76,23 +78,6 @@ class SSOLogin:
         waitForElement(self.driver, 'login_button_js')
         elem = self.driver.find_element_by_id('login_button_js')
         elem.click()
-
-    def loginWithDefaultCredentials(self):
-        waitForElement(self.driver, 'j_username_js')
-        elem = self.driver.find_element_by_id('j_username_js')
-        elem.send_keys('daniel.fusaro')
-        waitForElement(self.driver, 'password')
-        elem = self.driver.find_element_by_id('password')
-        elem.send_keys('Ilcielo3blu')
-        waitForElement(self.driver, 'radio2')
-        elem = self.driver.find_element_by_id('radio2')
-        elem.click()
-
-        
-        waitForElement(self.driver, 'login_button_js')
-        elem = self.driver.find_element_by_id('login_button_js')
-        elem.click()
-
 
     def login(self, courseURL):
         flag = False
@@ -122,10 +107,6 @@ class SSOLogin:
                 break
             time.sleep(2)
 
-            #if (self.isLoginRequested()):
-
-            #waitForElement(self.driver, 'guestlogin')
-            #waitForElement(self.driver, modeinfo="//a[@name='ssologin']", mode="xpath")
             if self.isPolicyPage() or self.isEnrolPage():
                 self.clickLogin()
                 self.clickShibbox()
@@ -146,12 +127,18 @@ class SSOLogin:
                 try:
                     if (self.driver.current_url == courseURL):
                         break
-                    self.loginWithDefaultCredentials()
+                    if (isFile("data/credentials.txt")):
+                        with open("data/credentials.txt", "r") as f:
+                            username = f.readline()[:-1]
+                            psw = f.readline()
+                            self.loginSequence(username, psw)
+                    else:
+                        self.loginSequence()
                     waitForElement(self.driver, modeinfo="//div[@class='usermenu']", mode="xpath")
                     break
                 except Exception as err:
                     print("some error occurred")
                     print(err)
-
+            time.sleep(1)
             if (self.driver.current_url == courseURL):
                 break
