@@ -32,7 +32,7 @@ def downloadAPDF(driver, pdf, path="", fileindex = ""):
 
 		r = session.get(pdf.link, stream=True)
 		time.sleep(2)
-		filename = path + ((fileindex.zfill(2) + " - ") if fileindex!="" else "") + pdf.title.replace(" ", "_").replace("/", "-") + (".pdf" if pdf.title[-4:]!=".pdf" else "")
+		filename = path + ((fileindex.zfill(2) + " - ") if fileindex!="" else "") + pdf.title.replace("/", "-") + (".pdf" if pdf.title[-4:]!=".pdf" else "")
 		print(filename)
 		with open(filename, "wb") as fd:
 			for chunk in r.iter_content(chunk_size):

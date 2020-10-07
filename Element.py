@@ -15,6 +15,7 @@ class Element:
 		self.link = link
 		self.widget = None
 		self.var = None
+		self.active = True
 
 		if elementType==SUBFOLDER:
 			self.elements = []

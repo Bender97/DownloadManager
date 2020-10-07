@@ -60,7 +60,7 @@ def getMediaSpaceVideoElementURL(driver):
 def downloadAVideo(driver, video, path="", fileindex = ""):
 
 	driver.get(video.link)
-	filename = path + ((fileindex.zfill(2) + "-") if fileindex!="" else "") + driver.title + ".mp4"
+	filename = path + ((fileindex.zfill(2) + " - ") if fileindex!="" else "") + driver.title + ".mp4"
 	#print(filename)
 	#driver.quit()
 	#exit()

@@ -3,6 +3,7 @@ import tkinter as tk
 import platform
 from Element import Element
 from config import *
+import os
 
 class UI:
 	def __init__(self, elements, mode=MOODLESIMULATOR):
@@ -17,6 +18,8 @@ class UI:
 		self.counter = 0
 
 		self.toReturn = []
+
+		self.disableAlreadyDownloadedElements()
 
 		self.root = tk.Tk()
 		self.root.geometry("800x600")
@@ -34,6 +37,41 @@ class UI:
 		self.initiateCheckVariables()
 
 		self.root.update()
+
+	def disableAlreadyDownloadedElements(self):
+		if not os.path.isdir(self.elements[0].title):
+			return
+		
+		for f in os.listdir(self.elements[0].title):
+			
+			if os.path.isdir(os.getcwd() + "/" + self.elements[0].title + "/" + f):
+				print(f)
+				for sub in os.listdir(os.getcwd() + "/" + self.elements[0].title + "/" + f):
+					print(sub)
+					for elem in self.elements:
+						filename = sub if elem.type==SUBFOLDER else sub[5:-4]
+						print (elem.title.replace("/", "-"), " ", filename)
+						if elem.title.replace("/", "-")==filename:
+							print("HELLO")
+							elem.active=False
+			else:
+				extension = f[f.rfind(".")+1:]
+				for elem in self.elements:
+					filename = f if elem.type==SUBFOLDER else f[5:-4]
+					if elem.title.replace("/", "-")==filename:
+						if (elem.type==PDF and extension=="pdf") or (elem.type==VIDEO and extension=="mp4"):
+							elem.active=False
+
+		for elem in self.elements:
+			if elem.type==SUBFOLDER:
+				flag = False
+				for sub in elem.elements:
+					if sub.active==True:
+						flag = True
+						break
+				if not flag:
+					elem.active = False
+
 
 	def loadImages(self):
 		if (platform.system()=="Linux"):
@@ -187,7 +225,7 @@ class UI:
 		elem.widget = Checkbutton(frame, text = elem.title,\
 			variable = elem.var, onvalue=1, offvalue=0, height=35, \
 			activebackground = "#D3D3D3", image = image, \
-			compound = "left")
+			compound = "left", state = ("normal" if elem.active else "disabled"))
 
 	def configureUIElement(self, elem):
 		if (elem.type == SECTION):

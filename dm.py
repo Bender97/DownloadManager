@@ -19,6 +19,7 @@ driver = None
 elements = None
 
 courseURL = CourseChoice().getCourseURL()
+#courseURL = "https://elearning.unipd.it/chimica/course/view.php?id=603"
 
 if useDriver:
 	driver = createDriver()
@@ -34,6 +35,8 @@ else:
 		url, elements = pickle.load(f)
 		if (url!=courseURL):
 			elements = parsePage(driver, courseURL)
+			with open("elements.pkl", "wb") as f:
+				pickle.dump([courseURL, elements], f)
 
 ui = UI(elements, mode = MODE)
 
