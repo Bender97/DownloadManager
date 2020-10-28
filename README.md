@@ -8,8 +8,9 @@
       <li>download the webdriver ( suggestion: gecko driver for linux) and update the path in createDriver.py</li>
     </ul>
     
-    type on a terminal
-    <i>python3 dm.py</i>
+    and type on a terminal
+       python3 dm.py
+  </li>
 
   <li>
     For Windows:
