@@ -1,7 +1,15 @@
 # DownloadManager
 <ul>
-  <li>For Linux, just download the folder (if zipped then unzip) and type on a terminal
-    <i>python3 dm.py</i></li>
+  <li>For Linux, just download the folder (if zipped then unzip)
+    <ul>
+      <li>sudo pip install selenium</li>
+      <li>sudo pip install requests</li>
+      <li>sudo apt-get install python3-tk</li>
+      <li>download the webdriver ( suggestion: gecko driver for linux) and update the path in createDriver.py</li>
+    </ul>
+    
+    type on a terminal
+    <i>python3 dm.py</i>
 
   <li>
     For Windows:
