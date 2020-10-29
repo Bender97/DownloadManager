@@ -5,6 +5,7 @@
       <li>sudo pip install selenium</li>
       <li>sudo pip install requests</li>
       <li>sudo apt-get install python3-tk</li>
+      <li>sudo apt-get install ffmpeg</li>
       <li>download the webdriver ( suggestion: gecko driver for linux) and update the path in createDriver.py</li>
     </ul>
     
